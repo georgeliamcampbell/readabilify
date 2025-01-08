@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/georgeliamcampbell/readabilify/issues"
   },
-  "homepage": "https://github.com/georgeliamcampbell/readabilify#readme"
+  "homepage": "https://github.com/georgeliamcampbell/readabilify#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
