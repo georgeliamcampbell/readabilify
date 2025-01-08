@@ -10,10 +10,10 @@ The quickest way to install Readabilify is using the image from Dockerhub.
 
 ```
 # Pull the image
-docker pull georgeliamcampbell/readabilify
+docker pull georgeliamcampbell/readabilify:latest
 
 # Run container
-docker run --name readabilify -p 3000:3000 -d georgeliamcampbell/readabilify
+docker run --name readabilify -p 3000:3000 -d georgeliamcampbell/readabilify:latest
 ```
 
 ## Developer Guide
@@ -43,8 +43,8 @@ npm run dev
 
 ```
 # Build the docker image
-docker build -t georgeliamcampbell/readabilify .
+docker build -t georgeliamcampbell/readabilify:latest .
 
 # Run the container
-docker run --name readabilify -p 3000:3000 -d georgeliamcampbell/readabilify
+docker run --name readabilify -p 3000:3000 -d georgeliamcampbell/readabilify:latest
 ```
