@@ -22,3 +22,13 @@ npm install
 # Run the application
 npm run dev
 ```
+
+# Building Docker Image
+
+```
+# Build the docker image
+docker build -t georgeliamcampbell/readabilify .
+
+# Run the container
+docker run --name readabilify -p 3000:3000 -d georgeliamcampbell/readabilify
+```
