@@ -9,7 +9,7 @@ server.listen(port, () => {
     console.log("Readabilify running on port:", port);
 });
 
-// Example endpoint returning version info
+// Endpoint returning version info
 server.get("/v1/versions", (request, response, next) => {
     response.json({
         "readabilify": "1.0.0",
