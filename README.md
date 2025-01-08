@@ -4,6 +4,8 @@ Readabilify is a Node.js project that provides a REST API wrapper around the Moz
 
 ## Development Environment
 
+### Node
+
 Use the following guide to set up a local development environment
 
 ```
@@ -23,7 +25,7 @@ npm install
 npm run dev
 ```
 
-# Building Docker Image
+### Docker Image
 
 ```
 # Build the docker image
