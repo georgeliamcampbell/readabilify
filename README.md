@@ -19,3 +19,16 @@ docker pull georgeliamcampbell/readabilify:latest
 # Run container
 docker run --name readabilify -p 49152:49152 -d georgeliamcampbell/readabilify:latest
 ```
+
+Alternatively, you can use the docker compose file include in this repository
+
+```
+# Clone the repo
+git clone ...
+
+# Navigate to directory
+cd readability
+
+# Run compose
+docker compose up -d 
+```
