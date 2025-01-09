@@ -21,6 +21,7 @@ const documentsController = require('../controllers/documentsController');
  *               url:
  *                 type: string
  *                 description: The URL to fetch data from
+ *                 example: http://www.github.com
  *             required:
  *               - url
  *     responses:
