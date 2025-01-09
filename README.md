@@ -27,7 +27,7 @@ Alternatively, you can use the docker compose file include in this repository
 git clone https://github.com/georgeliamcampbell/readabilify.git
 
 # Navigate to directory
-cd readability
+cd readabilify
 
 # Run compose
 docker compose up -d 
