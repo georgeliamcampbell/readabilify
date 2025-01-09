@@ -24,7 +24,7 @@ Alternatively, you can use the docker compose file include in this repository
 
 ```
 # Clone the repo
-git clone ...
+git clone https://github.com/georgeliamcampbell/readabilify.git
 
 # Navigate to directory
 cd readability
