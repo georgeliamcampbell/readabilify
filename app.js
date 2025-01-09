@@ -1,4 +1,6 @@
 const express = require('express');
+const jsdom = require('jsdom');
+
 
 const server = express();
 server.use(express.json())
@@ -9,7 +11,7 @@ server.listen(port, () => {
     console.log("Readabilify running on port:", port);
 });
 
-// Endpoint returning version info
+// Return version info
 server.get("/v1/versions", (request, response, next) => {
     response.json({
         "readabilify": "1.0.0",
@@ -18,3 +20,13 @@ server.get("/v1/versions", (request, response, next) => {
     });
 });
 
+server.get("/v1/fetch", (request, response, next) => {
+    // jsdom.fromURL("https://example.com/", options).then(dom => {
+    //     console.log(dom.serialize());
+    // });
+
+
+    response.json({
+        "message": "It works!"
+    });
+});
