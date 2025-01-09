@@ -32,3 +32,5 @@ cd readability
 # Run compose
 docker compose up -d 
 ```
+
+You should now be able to access the API at ```http://localhost:49152```
