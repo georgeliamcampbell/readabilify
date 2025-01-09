@@ -1,6 +1,6 @@
 # Readabilify: A Node.js REST API Wrapper for Mozilla Readability
 
-[![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/ZGpV9bDwHk)](https://discord.gg/ZGpV9bDwHk)
+[![Discord](https://dcbadge.limes.pink/api/server/ZGpV9bDwHk)](https://discord.gg/ZGpV9bDwHk)
 <a href="https://www.buymeacoffee.com/georgeliamcampbell" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
 </a>
