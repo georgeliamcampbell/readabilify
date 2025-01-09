@@ -14,10 +14,6 @@ const documentsRouter = require('./routers/documentsRouter');
 
 server.use(express.json());
 
-// server.get('/', (req, res) => {
-//     res.redirect('/swagger');
-// });
-
 server.use(indexRouter);
 server.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 server.use('/api', versionsRouter);
