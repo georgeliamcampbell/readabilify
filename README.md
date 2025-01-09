@@ -34,3 +34,11 @@ docker compose up -d
 ```
 
 You should now be able to access the API at ```http://localhost:49152```
+
+## Support the project
+
+If you find the project useful and want to support it or other projects you can do so using one of the following methods
+
+<a href="https://www.buymeacoffee.com/georgeliamcampbell" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="28" width="104.75">
+</a>
