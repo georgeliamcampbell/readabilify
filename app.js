@@ -4,11 +4,11 @@ const express = require('express');
 const server = express();
 
 const versionsRouter = require('./routers/versionsRouter');
-const fetchRouter = require('./routers/fetchRouter');
+const documentsRouter = require('./routers/documentsRouter');
 
 server.use(express.json());
 server.use(versionsRouter);
-server.use(fetchRouter);
+server.use(documentsRouter);
 
 server.listen(port, () => {
     console.log("Readabilify running on port:", port);
