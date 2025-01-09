@@ -33,7 +33,7 @@ cd readability
 docker compose up -d 
 ```
 
-You should now be able to access the Swagger UI by visiting ```[http://localhost:49152/](http://localhost:49152/)```
+You should now be able to access the Swagger UI by visiting [http://localhost:49152/](http://localhost:49152/)
 
 ## Support the project
 
