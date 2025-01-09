@@ -1,6 +1,10 @@
 # Readabilify: A Node.js REST API Wrapper for Mozilla Readability
 
 [![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/ZGpV9bDwHk)](https://discord.gg/ZGpV9bDwHk)
+<a href="https://www.buymeacoffee.com/georgeliamcampbell" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
+</a>
+
 
 Readabilify is a Node.js project that provides a REST API wrapper around the Mozilla Readability library. The project aims to simplify the process of extracting clean and readable content from web pages, making it easier for developers to integrate this functionality into their applications.
 
