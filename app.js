@@ -1,11 +1,15 @@
 const express = require('express');
+
 const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
+
+const readability = require('@mozilla/readability')
 
 
 const server = express();
 server.use(express.json())
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 49152;
 
 server.listen(port, () => {
     console.log("Readabilify running on port:", port);
@@ -20,10 +24,12 @@ server.get("/v1/versions", (request, response, next) => {
     });
 });
 
-server.get("/v1/fetch", (request, response, next) => {
-    // jsdom.fromURL("https://example.com/", options).then(dom => {
-    //     console.log(dom.serialize());
-    // });
+server.post("/v1/fetch", (request, response, next) => {
+    var request_body = request.body;
+    console.log(request.url);
+    //dom = new JSDOM.fromURL("https://example.com", options).then(dom => {
+    //    console.log(dom.serialize());
+    //});
 
 
     response.json({

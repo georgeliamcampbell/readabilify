@@ -2,4 +2,4 @@ services:
   readabilify:
     image: georgeliamcampbell/readabilify:latest
     ports:
-      - 3000:3000
+      - 49152:49152
