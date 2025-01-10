@@ -20,7 +20,7 @@ const documentsController = require('../controllers/documentsController');
  *             properties:
  *               url:
  *                 type: string
- *                 description: The URL to fetch data from
+ *                 description: The URL to fetch content from
  *                 example: http://www.github.com
  *             required:
  *               - url
@@ -28,7 +28,7 @@ const documentsController = require('../controllers/documentsController');
  *       200:
  *         description: Success
  *       500:
- *         description: Internal server error
+ *         description: Internal Server error
  */
 router.post('/v1/documents/fetch', documentsController.fetch);
 
